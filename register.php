@@ -46,7 +46,7 @@
 
 </head>
 
-<body bgcolor="#ff5c33">  <script src="js/scripts.js"></script>
+<body bgcolor="#4dffa6">  <script src="js/scripts.js"></script>
 
 
   <section class="text-gray-700 body-font">
