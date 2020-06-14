@@ -133,8 +133,9 @@ if((!isset($_SESSION['un']))&&(!isset($_SESSION['ps'])))
     $resultset=mysqli_query($link,$qry);
    
         
-     $mytable=<<<Tab
+    $mytable=<<<Tab
     <table border=3 cellspacing="5" align="center" width="500">
+   <tr><th>NAME</th><th>TIME</th></tr>th="500">
    
 Tab;
     while($row=mysqli_fetch_row($resultset))

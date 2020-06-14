@@ -51,8 +51,16 @@ if((!isset($_SESSION['un']))&&(!isset($_SESSION['ps'])))
     
   </div>
 </header>
-<hr>
-<hr>
+<section class="text-gray-700 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
+      <h1 class="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900">You are successfully logged in.......</h1>
+
+      <button class="flex-shrink-0 text-white bg-red-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-10 sm:mt-0" ><a href="logout.php">Log Out..</button>
+    </div>
+  </div>
+</section>
+
 <footer class="text-gray-500 bg-gray-900 body-font" id="footer">
   <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
     <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
